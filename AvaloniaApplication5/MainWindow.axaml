@@ -77,7 +77,7 @@
                                 </controls2:Node.Styles>
 
                                 <controls2:Node.Foreground>
-                                    <SolidColorBrush Color="{DynamicResource ApplicationBackgroundColor}" />
+                                    <SolidColorBrush Color="Black" />
                                 </controls2:Node.Foreground>
                                 <controls2:Node.HeaderBrush>
                                     <SolidColorBrush Color="{DynamicResource SystemAccentColor}"
@@ -93,9 +93,7 @@
                                             <ContentPresenter.ContextFlyout>
                                                 <MenuFlyout>
                                                     <!-- ReSharper disable once Xaml.RedundantResource -->
-                                                    <MenuItem Header="切换自输入/连接器"
-                                                              Foreground="{DynamicResource TextFillColorPrimaryBrush}"
-                                                              />
+                                                    <MenuItem Header="切换自输入/连接器" Foreground="Red" />
                                                 </MenuFlyout>
                                             </ContentPresenter.ContextFlyout>
                                             <ContentPresenter.DataTemplates>
